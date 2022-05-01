@@ -11,7 +11,6 @@
 ### 🏠 [Homepage](https://github.com/Kwonkunkun/react-native-collapsible-component-with-tab-view)
 
 <Image style="width:200px" src="./image/example-image.gif">
-<Image style="width:200px" src="./image/example-image.gif">
 
 ## Dependency
 
