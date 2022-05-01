@@ -1,6 +1,6 @@
 {
   "name": "react-native-collapsible-component-with-tab-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/Kwonkunkun/react-native-collapsible-component-with-tab-view",
   "main": "src/index.tsx",
