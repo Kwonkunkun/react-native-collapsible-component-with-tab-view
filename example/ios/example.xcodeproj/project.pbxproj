@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0264ED890D079BB9A99DCA28 /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFBF5BFF5F2120C4BEF2749 /* libPods-example.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		4DB20E9E4F8A6A186FBD8EBC /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E5F1590531DBFF6F0CEF2A /* libPods-example.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FAA6DE282607FC1C0044CA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */; };
-		FAB9070E279B4A83008B1D17 /* libRNModuleTemplateModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */; };
+		FAB9070E279B4A83008B1D17 /* libRNCollapsibleComponentWithTapViewModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9070D279B4A6B008B1D17 /* libRNCollapsibleComponentWithTapViewModule.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FAB9070C279B4A6B008B1D17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */;
+			containerPortal = FAB90708279B4A6B008B1D17 /* RNCollapsibleComponentWithTapViewModule.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = FA0EFF60236CC8FB00069FA8;
-			remoteInfo = RNModuleTemplateModule;
+			remoteInfo = RNCollapsibleComponentWithTapViewModule;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -28,14 +28,14 @@
 		13B07F961A680F5B00A75B9A /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = example/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = example/Info.plist; sourceTree = "<group>"; };
-		6AFBF5BFF5F2120C4BEF2749 /* libPods-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5794E54D5B2A296F2F3950E1 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		5EF73C04CDC1837264B8C6E7 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
+		72E5F1590531DBFF6F0CEF2A /* libPods-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = example/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97D2F575C9E1CCB8487D7A83 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F9197C6B9DA65F8C6AC6D250 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
 		FAA6DE272607FC1C0044CA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = example/AppDelegate.swift; sourceTree = "<group>"; };
 		FAA6DE2A2607FC480044CA6D /* example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "example-Bridging-Header.h"; path = "example/example-Bridging-Header.h"; sourceTree = "<group>"; };
-		FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNModuleTemplateModule.xcodeproj; path = ../../ios/RNModuleTemplateModule.xcodeproj; sourceTree = "<group>"; };
+		FAB90708279B4A6B008B1D17 /* RNCollapsibleComponentWithTapViewModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCollapsibleComponentWithTapViewModule.xcodeproj; path = ../../ios/RNCollapsibleComponentWithTapViewModule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB9070E279B4A83008B1D17 /* libRNModuleTemplateModule.a in Frameworks */,
-				0264ED890D079BB9A99DCA28 /* libPods-example.a in Frameworks */,
+				FAB9070E279B4A83008B1D17 /* libRNCollapsibleComponentWithTapViewModule.a in Frameworks */,
+				4DB20E9E4F8A6A186FBD8EBC /* libPods-example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6AFBF5BFF5F2120C4BEF2749 /* libPods-example.a */,
+				72E5F1590531DBFF6F0CEF2A /* libPods-example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */,
+				FAB90708279B4A6B008B1D17 /* RNCollapsibleComponentWithTapViewModule.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -105,8 +105,8 @@
 		B2C0F2FE6846CDF42A2E82AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97D2F575C9E1CCB8487D7A83 /* Pods-example.debug.xcconfig */,
-				F9197C6B9DA65F8C6AC6D250 /* Pods-example.release.xcconfig */,
+				5EF73C04CDC1837264B8C6E7 /* Pods-example.debug.xcconfig */,
+				5794E54D5B2A296F2F3950E1 /* Pods-example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 		FAB90709279B4A6B008B1D17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */,
+				FAB9070D279B4A6B008B1D17 /* libRNCollapsibleComponentWithTapViewModule.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,14 +126,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "example" */;
 			buildPhases = (
-				752C8533A601AAC997D2EA70 /* [CP] Check Pods Manifest.lock */,
+				7F6034D2C84E75B288640DE5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0D351765F33AAFE9182EB942 /* [CP] Embed Pods Frameworks */,
-				CF22FF45FAD6930B2B64F6DE /* [CP] Copy Pods Resources */,
+				8E431EC59F8C289B651908D8 /* [CP] Embed Pods Frameworks */,
+				FBEAB8B7D89704DD1EDA3659 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,7 +171,7 @@
 			projectReferences = (
 				{
 					ProductGroup = FAB90709279B4A6B008B1D17 /* Products */;
-					ProjectRef = FAB90708279B4A6B008B1D17 /* RNModuleTemplateModule.xcodeproj */;
+					ProjectRef = FAB90708279B4A6B008B1D17 /* RNCollapsibleComponentWithTapViewModule.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -182,10 +182,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FAB9070D279B4A6B008B1D17 /* libRNModuleTemplateModule.a */ = {
+		FAB9070D279B4A6B008B1D17 /* libRNCollapsibleComponentWithTapViewModule.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libRNModuleTemplateModule.a;
+			path = libRNCollapsibleComponentWithTapViewModule.a;
 			remoteRef = FAB9070C279B4A6B008B1D17 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -218,24 +218,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0D351765F33AAFE9182EB942 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		752C8533A601AAC997D2EA70 /* [CP] Check Pods Manifest.lock */ = {
+		7F6034D2C84E75B288640DE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,7 +240,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF22FF45FAD6930B2B64F6DE /* [CP] Copy Pods Resources */ = {
+		8E431EC59F8C289B651908D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEAB8B7D89704DD1EDA3659 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,11 +309,12 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97D2F575C9E1CCB8487D7A83 /* Pods-example.debug.xcconfig */;
+			baseConfigurationReference = 5EF73C04CDC1837264B8C6E7 /* Pods-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76G7BR6TL3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +326,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tapView;
 				PRODUCT_NAME = example;
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -336,11 +337,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9197C6B9DA65F8C6AC6D250 /* Pods-example.release.xcconfig */;
+			baseConfigurationReference = 5794E54D5B2A296F2F3950E1 /* Pods-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76G7BR6TL3;
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,7 +353,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier:lower)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tapView;
 				PRODUCT_NAME = example;
 				SWIFT_OBJC_BRIDGING_HEADER = "example/example-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

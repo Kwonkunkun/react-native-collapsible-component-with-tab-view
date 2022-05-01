@@ -2,10 +2,13 @@ package com.example
 
 import android.app.Application
 import android.content.Context
-import com.alexdemchenko.reactnativemoduletemplate.RNModuleTemplatePackage
+import com.kwonkunkun.reactnativecollapsiblecomponentwithtabview.RNCollapsibleComponentWithTapViewPackage
 import com.facebook.react.*
 import com.facebook.soloader.SoLoader
 import java.lang.reflect.InvocationTargetException
+
+import com.facebook.react.bridge.JSIModulePackage
+import com.swmansion.reanimated.ReanimatedJSIModulePackage
 
 class MainApplication : Application(), ReactApplication {
 
@@ -18,12 +21,16 @@ class MainApplication : Application(), ReactApplication {
             val packages = PackageList(this).packages
             // Packages that cannot be autolinked yet can be added manually here, for example:
             // packages.add(MyReactNativePackage());
-            packages.add(RNModuleTemplatePackage())
+            packages.add(RNCollapsibleComponentWithTapViewPackage())
             return packages
         }
 
         override fun getJSMainModuleName(): String {
             return "index"
+        }
+
+        override func getJSIModulePackage(): JSIModulePackage {
+            return object: ReanimatedJSIModulePackage()
         }
     }
 
