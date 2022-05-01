@@ -7,6 +7,9 @@ import com.facebook.react.*
 import com.facebook.soloader.SoLoader
 import java.lang.reflect.InvocationTargetException
 
+import com.facebook.react.bridge.JSIModulePackage
+import com.swmansion.reanimated.ReanimatedJSIModulePackage
+
 class MainApplication : Application(), ReactApplication {
 
     private val mReactNativeHost = object : ReactNativeHost(this) {
@@ -24,6 +27,10 @@ class MainApplication : Application(), ReactApplication {
 
         override fun getJSMainModuleName(): String {
             return "index"
+        }
+
+        override func getJSIModulePackage(): JSIModulePackage {
+            return object: ReanimatedJSIModulePackage()
         }
     }
 
