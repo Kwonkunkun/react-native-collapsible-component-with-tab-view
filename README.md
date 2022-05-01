@@ -10,8 +10,8 @@
 
 ### 🏠 [Homepage](https://github.com/Kwonkunkun/react-native-collapsible-component-with-tab-view)
 
-<Image style="width:200px" src="https://user-images.githubusercontent.com/59603575/166138287-13bcf95d-65a9-49ee-96f8-2338b288b83a.gif">
-<Image style="width:200px" src="https://user-images.githubusercontent.com/59603575/166138287-13bcf95d-65a9-49ee-96f8-2338b288b83a.gif">
+<Image style="width:200px" src="./image/example-image.gif">
+<Image style="width:200px" src="./image/example-image.gif">
 
 ## Dependency
 
