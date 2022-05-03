@@ -42,6 +42,9 @@ git clone https://github.com/Kwonkunkun/react-native-collapsible-component-with-
 
 yarn
 
+package.json 
+change -> main: "src/index.tsx"
+
 cd example & yarn & yarn ios or android
 ```
 
