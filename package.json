@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/Kwonkunkun/react-native-collapsible-component-with-tab-view",
-  "main": "src/index.tsx",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "KWonkunkun <kunwoo242@gmail.com>",
   "license": "MIT",
